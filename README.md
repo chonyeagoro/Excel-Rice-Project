@@ -19,7 +19,41 @@ Using the Excel workbook in your .zip file, modify and analyze the sample-projec
 
   - Create a new column called Average Donation that uses a formula to find how much each project backer paid on average.
   - Create two new columns, one called Parent Category and another called Sub-Category, that use formulas to split the Category and Sub-Category column into the two new, separate columns.
+    
     ![image](https://github.com/chonyeagoro/Excel-Rice-Project/assets/147462029/7ff50a14-9be1-45bd-a238-d9927ddf1dfa)
   - Create a new sheet with a pivot table that analyzes your initial worksheet to count how many campaigns were successful, failed, canceled, or are currently live per category.
 - Create a stacked-column pivot chart that can be filtered by country based on the table that you created.
 
+![image](https://github.com/chonyeagoro/Excel-Rice-Project/assets/147462029/7f75d742-753a-44ab-a5d8-2f6951dc2eb2)
+
+- Create a new sheet with a pivot table that analyzes your initial sheet to count how many campaigns were successful, failed, or canceled, or are currently live per sub-category.
+- Create a stacked-column pivot chart that can be filtered by country and parent category based on the table that you created.
+- The dates in the deadline and launched_at columns use Unix timestamps. Fortunately for us, this formulaLinks to an external site. that can be used to convert these timestamps to a normal date.
+   - Create a new column named Date Created Conversion that will use this formulaLinks to an external site. to convert the data contained in launched_at into Excel's date format.
+   - Create a new column named Date Ended Conversion that will use this formulaLinks to an external site. to convert the data contained in deadline into Excel's date format.
+   - Create a new sheet with a pivot table that has a column of outcome, rows of Date Created Conversion, values based on the count of outcome, and filters based on parent category and Years.
+   - Now, create a pivot-chart line graph that visualizes this new table.
+ 
+- Create a report in Microsoft Word, and answer the following questions:
+   - Given the provided data, what are three conclusions that we can draw about crowdfunding campaigns?
+   - What are some limitations of this dataset?
+   - What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
+
+# Crowdfunding Goal Analysis
+Create a new sheet with 8 columns:
+
+Goal
+
+Number Successful
+
+Number Failed
+
+Number Canceled
+
+Total Projects
+
+Percentage Successful
+
+Percentage Failed
+
+Percentage Canceled
