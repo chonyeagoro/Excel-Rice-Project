@@ -39,21 +39,63 @@ Using the Excel workbook in your .zip file, modify and analyze the sample-projec
    - What are some limitations of this dataset?
    - What are some other possible tables and/or graphs that we could create, and what additional value would they provide?
 
-# Crowdfunding Goal Analysis
-Create a new sheet with 8 columns:
+## Crowdfunding Goal Analysis
+- Create a new sheet with 8 columns:
 
-Goal
+   - Goal
 
-Number Successful
+   - Number Successful
 
-Number Failed
+   - Number Failed
 
-Number Canceled
+   - Number Canceled
 
-Total Projects
+   - Total Projects
 
-Percentage Successful
+   - Percentage Successful
 
-Percentage Failed
+   - Percentage Failed
 
-Percentage Canceled
+   - Percentage Canceled
+
+- In the Goal column, create 12 rows with the following headers:
+
+   - Less than 1000
+
+   - 1000 to 4999
+
+   - 5000 to 9999
+
+   - 10000 to 14999
+
+   - 15000 to 19999
+
+   - 20000 to 24999
+
+   - 25000 to 29999
+
+   - 30000 to 34999
+
+   - 35000 to 39999
+
+   - 40000 to 44999
+
+   - 45000 to 49999
+
+   - Greater than or equal to 50000
+
+   ![image](https://github.com/chonyeagoro/Excel-Rice-Project/assets/147462029/0e836b1a-c36b-4c3d-bdab-f095c27fc2a6)
+
+- Using the COUNTIFS() formula, count how many successful, failed, and canceled projects were created with goals within the ranges listed above. Populate the Number Successful, Number Failed, and Number Canceled columns with these data points.
+
+- Add up each of the values in the Number Successful, Number Failed, and Number Canceled columns to populate the Total Projects column. Then, using a mathematical formula, find the percentage of projects that were successful, failed, or canceled per goal range.
+
+- Create a line chart that graphs the relationship between a goal amount and its chances of success, failure, or cancellation.
+
+## Statistical Analysis
+Most people would use the number of campaign backers to assess the success of a crowdfunding campaign. Creating a summary statistics table is one of the most efficient ways that data scientists can characterize quantitative metrics, such as the number of campaign backers.
+
+For gaining an in-depth understanding of campaign backers, evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
+
+
+
