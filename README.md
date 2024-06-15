@@ -97,5 +97,27 @@ Most people would use the number of campaign backers to assess the success of a 
 
 For gaining an in-depth understanding of campaign backers, evaluate the number of backers of successful and unsuccessful campaigns by creating your own summary statistics table.
 
+- Create a new worksheet in your workbook, and create one column for the number of backers of successful campaigns and one column for unsuccessful campaigns.
+
+  ![image](https://github.com/chonyeagoro/Excel-Rice-Project/assets/147462029/080c678d-47e6-4d24-a38d-17dbe28af05e)
+
+- Use Excel to evaluate the following values for successful campaigns, and then do the same for unsuccessful campaigns:
+
+   - The mean number of backers
+
+   - The median number of backers
+
+   - The minimum number of backers
+
+   - The maximum number of backers
+
+   - The variance of the number of backers
+
+   - The standard deviation of the number of backers
+
+- Use your data to determine whether the mean or the median better summarizes the data.
+- Use your data to determine if there is more variability with successful or unsuccessful campaigns. Does this make sense? Why or why not?
+
+
 
 
